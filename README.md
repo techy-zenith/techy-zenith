@@ -55,7 +55,7 @@
 ---
 
 ### 📈 GitHub Metrics
-![Metrics](https://github.com/techy-zenith/techy-zenith/blob/main/github-metrics.svg)
+![Metrics](https://raw.githubusercontent.com/techy-zenith/techy-zenith/main/github-metrics.svg)
 
 ---
 
