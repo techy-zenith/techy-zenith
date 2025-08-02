@@ -1,17 +1,22 @@
 name: Update GitHub Profile
 
 on:
+  push:                         # Runs when you push any changes
+    branches:
+      - main
   schedule:
-    - cron: "0 * * * *" # Runs every hour
-  workflow_dispatch:
+    - cron: "0 * * * *"         # Also runs every hour
+  workflow_dispatch:            # Manual trigger option
 
 jobs:
   update-profile:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write           # Required to commit the generated metrics file
     steps:
       - uses: actions/checkout@v3
 
-      # Update recent activity
+      # Update recent activity (commits, PRs, issues)
       - name: Update GitHub Activity
         uses: JamesIves/github-activity-readme@v0.3.0
         with:
@@ -26,8 +31,22 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
+
+          # Theme Optimization
+          config_display: large
+          config_padding: 20, 20
+          config_twemoji: yes
+          config_animations: yes
+          config_colors: "background:000000; border:FF00AA; title:FF4DD2; text:FFFFFF; icons:FF4DD2" 
+
+          # Plugins
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full
           plugin_stars: yes
           plugin_languages: yes
           plugin_languages_limit: 8
+          plugin_languages_sections: most-used, recently-used
+
+          # Output Settings
+          output_action: commit
+          output_path: github-metrics.svg
