@@ -18,9 +18,10 @@ jobs:
 
       # Update recent activity (commits, PRs, issues)
       - name: Update GitHub Activity
-        uses: JamesIves/github-activity-readme@v0.3.0
+        uses: Readme-Workflows/recent-activity@v2
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
       # Generate GitHub Metrics (commit count, contribution graph, languages, etc.)
       - name: Generate GitHub Metrics
