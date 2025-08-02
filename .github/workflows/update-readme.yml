@@ -15,11 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # ✅ Fixed: Update GitHub Activity (Correct version)
+      # ✅ Fixed: Update GitHub Activity (new maintained action)
       - name: Update GitHub Activity
-        uses: Readme-Workflows/recent-activity@v1
+        uses: jamesgeorge007/github-activity-readme@v0.4.1
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Generate GitHub Metrics
       - name: Generate GitHub Metrics
