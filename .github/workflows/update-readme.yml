@@ -1,11 +1,9 @@
 name: Update GitHub Profile
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [main]
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 * * * *" # Every hour
+  workflow_dispatch:     # Manual trigger
 
 jobs:
   update-profile:
@@ -15,13 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # ✅ Fixed: Update GitHub Activity (new maintained action)
+      # ✅ Update GitHub Activity
       - name: Update GitHub Activity
         uses: jamesgeorge007/github-activity-readme@v0.4.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: techy-zenith   # Your GitHub username
+          COMMIT_MSG: "⚡ Update GitHub activity"
+          MAX_LINES: 5
 
-      # Generate GitHub Metrics
+      # ✅ Generate GitHub Metrics
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
