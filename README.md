@@ -4,7 +4,8 @@
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=techy-zenith&label=Profile%20views&color=0e75b6&style=flat" alt="techy-zenith" /> 
 </p>
-<hr style="width: 75%; text-align: left; margin-left: 0;" />
+<hr style="width: 65%; text-align: left; margin-left: 0;" />
+
 <img align="right" height="200" src="https://www.abzu2.com/wp-content/uploads/2016/03/Geometry-GIF.gif" />
 
 ## 🚀 About Me
@@ -12,7 +13,6 @@
 - 💬 Ask me about **HTML, CSS, JS**
 - ✍️ Read through my blogs on [Medium](https://medium.com/@zenith-exe)
 - ⚡ Fun fact? I can debug faster with coffee ☕
-
 <br clear="right"/>
 
 ---
