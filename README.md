@@ -82,6 +82,7 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=techy-zenith&theme=radical" alt="GitHub Streak"/>
 </p>
+
 ---
 
 ## 🔥 Recent GitHub Activity
