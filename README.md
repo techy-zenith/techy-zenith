@@ -75,14 +75,13 @@
 
 ## 📊 GitHub Analytics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=techy-zenith&show_icons=true&theme=radical" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=techy-zenith&layout=compact&theme=radical" alt="Top Languages" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=techy-zenith&show_icons=true&theme=radical&cache_seconds=7200" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=techy-zenith&layout=compact&theme=radical&cache_seconds=7200" alt="Top Languages" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=techy-zenith&theme=radical" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=techy-zenith&theme=radical&cache_seconds=7200" alt="GitHub Streak"/>
 </p>
-
 ---
 
 ## 🔥 Recent GitHub Activity
