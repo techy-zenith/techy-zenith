@@ -80,7 +80,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=techy-zenith&theme=radical&cache_seconds=7200" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=techy-zenith&theme=radical" alt="GitHub Streak"/>
 </p>
 ---
 
