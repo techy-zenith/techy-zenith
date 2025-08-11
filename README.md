@@ -80,7 +80,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=techy-zenith&theme=radical" alt="GitHub Streak"/>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=techy-zenith&theme=radical" alt="GitHub Streak" /></a>
 </p>
 
 ---
