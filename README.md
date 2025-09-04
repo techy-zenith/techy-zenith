@@ -86,7 +86,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=techy-zenith&theme=radical" alt="GitHub Streak" /></a>
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=techy-zenith&theme=radical&cache_seconds=7200" alt="GitHub Streak" /></a>
 </p>
 
 ---
